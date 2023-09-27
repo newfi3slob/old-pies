@@ -53,8 +53,9 @@ def main(): # main game functions
         new_disp_list = []
         guess = input('Guess a letter ('+str(guess_amt)+' guesses remaining): ')
 
-        if len(guess) > 1:
+        if len(guess) > 1:      # added validation aspect for guess (length check)
             print('Only guess a single letter')
+            guess_amt += 1      # lazy implementation of relief for guess_amt deduction
 
         if guess in scrt_wrd_list:      # nested loops for tracking guesses
             if guess in guessed_letters:
