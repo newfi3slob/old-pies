@@ -1,6 +1,5 @@
 # Mini Project 1 - Word Puzzle
 # Has user guess letters of random word & outputs result based on user attempt
-# Nathan Juguilon
 
 import random
 
