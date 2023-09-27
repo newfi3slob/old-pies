@@ -5,7 +5,7 @@ import random
 
 # instruction func.
 def print_instructions():   # prints instructions
-    filename = "word-puzzle\wp_instructions.txt"
+    filename = "wp_instructions.txt"
     filemode = "r"  
     file = open(filename, filemode)
     contents = file.read()
